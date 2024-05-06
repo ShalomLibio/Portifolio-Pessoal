@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <!--titulo-->
+    <h1>Contato</h1>
+    </header>
+<br>
+        <!--menu voltar-->
+    <nav class="container">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+    </nav>
+
+    <!--formulario de contato-->
+    <form action="" method="post">
+        <br><br>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" size="50" maxlength="50">
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="Digite seu e-mail" size="50" maxlength="50">
+        <br><br>
+        <label for="comentario">Dúvidas, Sujestões e Elógios:</label><br>
+        <textarea id="comnetario" name="comentario" placeholder="Deixe sua opnião e/ou elógio"
+        style="width: 430px; height: 70px;"></textarea><br><br>
+
+        <fieldset>
+        <label for="opniao">Você gostou do site?</label>
+        <input type="radio" name="opniao[]" value="sim">Sim
+        <input type="radio" name="opniao[]" value="nao">Não
+        </fieldset>
+
+        <br><input name="submit" type="submit" id="submit" value="Enviar">
+
+    </form>
+
+
+     <!--rodape-->
+    <footer>
+        <p>Analise e Desenvolvimento de Sistemas</p>
+    </footer>
+</body>
+</html>
