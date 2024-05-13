@@ -7,7 +7,8 @@ h1{
 
 h2{
   text-align: center;
-  color: #005b41; 
+  color: #005b41;
+  font-size: 35px; 
 }
 
 h3{
@@ -32,6 +33,7 @@ li{
   list-style: none;
 }
 
+
 li a:hover {
   background-color:#005b41;
   color:  #09ceb3;
@@ -39,9 +41,11 @@ li a:hover {
   text-decoration: none;
 }
 
+
+
 .container {
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-columns: 170px 170px 170px 170px;
   grid-template-rows: 50px;
   font-size: x-large ;
   justify-items: center;
@@ -49,12 +53,12 @@ li a:hover {
 
 footer {
   text-align: center;
-  color: #09ceb3;
+  color: #70ffec;
   background-color: #005b41;
   position: fixed ;
   bottom: 0;
   width: 100%;
- 
+  font-size: larger; 
 }
 
 img{
